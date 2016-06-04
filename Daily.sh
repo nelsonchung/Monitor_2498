@@ -16,6 +16,8 @@ do
             git commit -am "Update ${STOCK_ID} information"
             git push
         fi
+    else
+        echo "Today is Saturday or Sunday. You should go to outside and do some exercise."
     fi
     sleep 60
 done
